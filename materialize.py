@@ -21471,9 +21471,11 @@ $jscomp.polyfill = function (e, r, p, m) {
 
 indexhtml = ('''<!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
 
 <head>
+
+    <meta charset="UTF-8">
 
     <title>Defaut</title>
 
@@ -21494,8 +21496,6 @@ indexhtml = ('''<!DOCTYPE html>
 <body>
     
 
-    
-
    
 </body>
 
@@ -21504,13 +21504,9 @@ indexhtml = ('''<!DOCTYPE html>
 
 </script>
 
-<script type="text/javascript" src="js/materialize.js">
-   
-</script>
+<script type="text/javascript" src="js/materialize.js"></script>
 
-<script type="text/java" src="js/index.js"></script>
-
-</html>''')
+<script type="text/javascript" src="js/index.js"></script></html>''')
 
 indexcss = ('''''')
 
